@@ -5,7 +5,8 @@ import {
   IconHeart,
   IconCart2,
 } from "../../../utils/icon.js";
-import { Link } from "react-router-dom";
+import { Link, NavLink } from "react-router-dom";
+
 const NavBarSearch = () => {
   return (
     <>
@@ -27,7 +28,8 @@ const NavBarSearch = () => {
         <div className="flex flex-row">
           <div className="flex flex-row px-6 space-x-2 justify-center items-center">
             <div>{IconProfile()}</div>
-            <Link to={'/login'}>Log In</Link>
+            <a href="/login">Log In</a>
+            {/* <Link to='/login'>Log In</Link> */}
           </div>
           <div className="flex px-6 space-x-2 justify-center items-center">
             {IconHeart()}
