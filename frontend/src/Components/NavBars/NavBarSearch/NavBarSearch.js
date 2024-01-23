@@ -11,9 +11,8 @@ const NavBarSearch = () => {
   return (
     <>
       <div className="flex flex-row max-w-full justify-between m-2">
-        <div className="flex flex-row space-x-8 justify-center items-center"> 
+        <div className="flex flex-row space-x-8 justify-center items-center">
           <div className="">
-            <div></div>
             <h1 className=" font-mono text-3xl tracking-wider font-bold">
               UrbanCartz
             </h1>
