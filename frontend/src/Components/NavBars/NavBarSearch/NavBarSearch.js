@@ -18,7 +18,7 @@ const NavBarSearch = () => {
             </h1>
           </div>
           <div className="flex flex-row rounded-3xl h-10 hover:border overflow-hidden hover:border-black">
-            <input className="w-72 min-h-full rounded-l-3xl outline-none pl-4 h-full bg-[#EDECEC] hover:bg-white"></input>
+            <input placeholder="Search..." className="w-72 min-h-full rounded-l-3xl outline-none pl-4 h-full bg-[#EDECEC] hover:bg-white"></input>
             <button className="flex bg-violet-600 rounded-r-3xl h-10 w-14 justify-center py-3 hover:bg-black">
               {IconSearch()}
             </button>
